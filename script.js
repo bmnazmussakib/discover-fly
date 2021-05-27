@@ -88,3 +88,10 @@ function totalPrice(){
     console.log("Total: ", grandTotal);
 
 }
+
+// ========================== Book Now ============================
+function bookNow(){
+    document.getElementById('confirmation').style.display = "block";
+    document.getElementById('booking-form').style.display = "none";
+    document.getElementById('booking-content').style.display = "none";
+}
